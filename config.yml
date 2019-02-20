@@ -25,5 +25,7 @@ site:
       permalink: _redirects
 theme: 'hyde'
 backend:
-  name: github
-  repo: owner-name/repo-name # Path to your GitHub repository
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
