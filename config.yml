@@ -24,3 +24,6 @@ site:
       layout: _redirects.txt
       permalink: _redirects
 theme: 'hyde'
+backend:
+  name: github
+  repo: owner-name/repo-name # Path to your GitHub repository
