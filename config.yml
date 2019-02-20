@@ -1,26 +1,19 @@
 site:
-  title: 'Cecil'
-  baseline: "Your blog's butler."
-  baseurl: '/'
+  baseline: Your blog's butler.
+  baseurl: /
   canonicalurl: true
-  description: "Starter blog, with Netlify CMS."
-  paginate:
-    max: 5
-    path: 'page'
   date:
-    format: 'j F Y'
-    timezone: 'Europe/Paris'
+    format: j F Y
+    timezone: Europe/Paris
+  description: 'Starter blog, with Netlify CMS.'
   netlify:
     cms:
-      path: 'admin'
-      version: 'latest'
+      path: admin
+      version: latest
     identity:
-      version: 'v1'
-  fmpages:
-    admin:
-      layout: admin/index.html
-      title: 'Content Manager (Netlify CMS)'
-    redirects:
-      layout: _redirects.txt
-      permalink: _redirects
-theme: 'hyde'
+      version: v1
+  paginate:
+    max: 5
+    path: page
+  title: Brad Acker
+theme: hyde
